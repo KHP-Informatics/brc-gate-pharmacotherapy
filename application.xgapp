@@ -275,16 +275,16 @@
                   <null/>
                 </entry>
                 <entry>
-                  <string>inputASName</string>
-                  <null/>
-                </entry>
-                <entry>
                   <string>posTagAllTokens</string>
                   <boolean>true</boolean>
                 </entry>
                 <entry>
                   <string>baseTokenAnnotationType</string>
                   <string>Token</string>
+                </entry>
+                <entry>
+                  <string>inputASName</string>
+                  <null/>
                 </entry>
                 <entry>
                   <string>baseSentenceAnnotationType</string>
@@ -810,10 +810,6 @@
                   <null/>
                 </entry>
                 <entry>
-                  <string>inputASName</string>
-                  <null/>
-                </entry>
-                <entry>
                   <string>ignoredAnnotations</string>
                   <gate.util.persistence.CollectionPersistence>
                     <localList>
@@ -821,6 +817,10 @@
                     </localList>
                     <collectionType>java.util.HashSet</collectionType>
                   </gate.util.persistence.CollectionPersistence>
+                </entry>
+                <entry>
+                  <string>inputASName</string>
+                  <null/>
                 </entry>
               </localMap>
             </runtimeParams>
@@ -1255,6 +1255,8 @@
         </gate.util.persistence.AnalyserRunningStrategyPersistence>
         <gate.util.persistence.AnalyserRunningStrategyPersistence>
           <runMode>1</runMode>
+          <featureName></featureName>
+          <featureValue></featureValue>
           <pr class="gate.util.persistence.LanguageAnalyserPersistence">
             <runtimeParams class="gate.util.persistence.MapPersistence">
               <mapType>gate.util.SimpleFeatureMapImpl</mapType>
@@ -1370,12 +1372,12 @@
                   <string>Output</string>
                 </entry>
                 <entry>
-                  <string>inputASName</string>
-                  <null/>
-                </entry>
-                <entry>
                   <string>useDefaults</string>
                   <boolean>true</boolean>
+                </entry>
+                <entry>
+                  <string>inputASName</string>
+                  <null/>
                 </entry>
                 <entry>
                   <string>schemas</string>

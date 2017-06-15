@@ -7,4 +7,4 @@ To use brc-gate-pharmacotherapy with original context tagger please checkout v1
 git checkout v1 
 
 CHANGE LOG
-V2.1 UPDATE CONTAXT TAGGER TO NEWVERSION
+V2 UPDATE CONTAXT TAGGER TO NEWVERSION
