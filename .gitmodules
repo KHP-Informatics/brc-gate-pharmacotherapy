@@ -1,0 +1,3 @@
+[submodule "plugins/gateplugin-ConText"]
+	path = plugins/gateplugin-ConText
+	url = https://github.com/GateNLP/gateplugin-ConText.git
