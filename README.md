@@ -7,7 +7,16 @@ Please first run following command to pull all submodules
 
 git submodule update --init --recursive
 
-To use brc-gate-pharmacotherapy with original context tagger please checkout v1
+You also need compile the context tagger before use:
+
+cd plugins/gateplugin-ConText/ 
+
+ant
+
+
+
+To use brc-gate-pharmacotherapy with original context tagger please checkout v1:
+
 git checkout v1 
 
 CHANGE LOG
